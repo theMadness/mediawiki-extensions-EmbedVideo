@@ -9,10 +9,10 @@ use JsonException;
 use MediaWiki\Config\ConfigException;
 use MediaWiki\FileRepo\File\File;
 use MediaWiki\MediaWikiServices;
-use MediaWiki\ProcOpenError;
+use MediaWiki\Exception\ProcOpenError;
 use MediaWiki\Settings\SettingsBuilder;
 use MediaWiki\Shell\Shell;
-use MediaWiki\ShellDisabledError;
+use MediaWiki\Exception\ShellDisabledError;
 use Wikimedia\FileBackend\FSFile\FSFile;
 use Wikimedia\LightweightObjectStore\ExpirationAwareness;
 
