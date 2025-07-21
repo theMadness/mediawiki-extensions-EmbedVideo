@@ -6,16 +6,16 @@ class Bootstrap {
 	public static function onRegistration() {
 		$classAliasMap = [
 			'1.44' => [
-                [ 'MediaWiki\\Exception\\MWException', 'MWException' ],
-                [ 'MediaWiki\\Exception\\ProcOpenError', 'Mediawiki\\ProcOpenError' ],
-                [ 'MediaWiki\\Exception\\ShellDisabledError', 'Mediawiki\\ShellDisabledError' ],
-                [ 'MediaWiki\\FileRepo\\File\\File' , 'File' ],
-                [ 'MediaWiki\\FileRepo\\File\\LocalFile', 'LocalFile' ],
-                [ 'MediaWiki\\FileRepo\\File\\UnregisteredLocalFile', 'UnregisteredLocalFile' ],
-                [ 'MediaWiki\\FileRepo\\RepoGroup', 'RepoGroup' ],
-                [ 'MediaWiki\\Page\\WikiPage', 'WikiPage' ],
-                [ 'MediaWiki\\Skin\\Skin', 'Skin' ],
-            ]
+				[ 'MediaWiki\\Exception\\MWException', 'MWException' ],
+				[ 'MediaWiki\\Exception\\ProcOpenError', 'Mediawiki\\ProcOpenError' ],
+				[ 'MediaWiki\\Exception\\ShellDisabledError', 'Mediawiki\\ShellDisabledError' ],
+				[ 'MediaWiki\\FileRepo\\File\\File' , 'File' ],
+				[ 'MediaWiki\\FileRepo\\File\\LocalFile', 'LocalFile' ],
+				[ 'MediaWiki\\FileRepo\\File\\UnregisteredLocalFile', 'UnregisteredLocalFile' ],
+				[ 'MediaWiki\\FileRepo\\RepoGroup', 'RepoGroup' ],
+				[ 'MediaWiki\\Page\\WikiPage', 'WikiPage' ],
+				[ 'MediaWiki\\Skin\\Skin', 'Skin' ],
+			]
 		];
 
 		foreach ( $classAliasMap as $version => $classMap ) {

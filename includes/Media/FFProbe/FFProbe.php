@@ -7,12 +7,12 @@ namespace MediaWiki\Extension\EmbedVideo\Media\FFProbe;
 use Exception;
 use JsonException;
 use MediaWiki\Config\ConfigException;
+use MediaWiki\Exception\ProcOpenError;
+use MediaWiki\Exception\ShellDisabledError;
 use MediaWiki\FileRepo\File\File;
 use MediaWiki\MediaWikiServices;
-use MediaWiki\Exception\ProcOpenError;
 use MediaWiki\Settings\SettingsBuilder;
 use MediaWiki\Shell\Shell;
-use MediaWiki\Exception\ShellDisabledError;
 use Wikimedia\FileBackend\FSFile\FSFile;
 use Wikimedia\LightweightObjectStore\ExpirationAwareness;
 
