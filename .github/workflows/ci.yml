@@ -17,18 +17,21 @@ jobs:
           - mw: 'REL1_39'
             php: 8.1
             experimental: false
+            use_legacy_phpunit: true
           - mw: 'REL1_40'
             php: 8.1
-            experimental: true
+            experimental: false
+            use_legacy_phpunit: true
           - mw: 'REL1_41'
             php: 8.1
-            experimental: true
-          #- mw: 'REL1_42'
-          #  php: 8.1
-          #  experimental: true
-          #- mw: 'master'
-          #  php: 8.1
-          #  experimental: true
+            experimental: false
+            use_legacy_phpunit: true
+          - mw: 'REL1_42'
+            php: 8.1
+            experimental: false
+          - mw: 'REL1_43'
+            php: 8.1
+            experimental: false
 
     runs-on: ubuntu-latest
 
@@ -76,5 +79,15 @@ jobs:
       - name: Composer update
         run: composer update
 
-      - name: Run PHPUnit
+      - name: Run PHPUnit (Legacy)
+        if: ${{ matrix.use_legacy_phpunit }}
         run: composer phpunit:entrypoint -- --group EmbedVideo
+
+      - name: Fetch phpunit.xml.dist for modern MW
+        if: ${{ !matrix.use_legacy_phpunit }}
+        working-directory: mediawiki
+        run: bash ../EarlyCopy/.github/workflows/fetchPhpunitConf.sh ${{ matrix.mw }}
+
+      - name: Run PHPUnit
+        if: ${{ !matrix.use_legacy_phpunit }}
+        run: composer phpunit -- --group EmbedVideo
