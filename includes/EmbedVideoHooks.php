@@ -13,7 +13,7 @@ use MediaWiki\Extension\EmbedVideo\Media\VideoHandler;
 use MediaWiki\FileRepo\RepoGroup;
 use MediaWiki\Hook\BeforePageDisplayHook;
 use MediaWiki\Hook\ParserFirstCallInitHook;
-use MediaWiki\ObjectCache\WANObjectCache;
+use Wikimedia\ObjectCache\WANObjectCache;
 use MediaWiki\Output\OutputPage;
 use MediaWiki\Page\Hook\ArticlePurgeHook;
 use MediaWiki\Page\WikiPage;
