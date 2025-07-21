@@ -15,7 +15,10 @@ class Bootstrap {
 				[ 'MediaWiki\\FileRepo\\RepoGroup', 'RepoGroup' ],
 				[ 'MediaWiki\\Page\\WikiPage', 'WikiPage' ],
 				[ 'MediaWiki\\Skin\\Skin', 'Skin' ],
-			]
+			],
+			'1.43' => [
+				[ 'Wikimedia\\ObjectCache\\WANObjectCache', 'WANObjectCache ' ],
+			],
 		];
 
 		foreach ( $classAliasMap as $version => $classMap ) {
