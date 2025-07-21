@@ -13,12 +13,12 @@ use MediaWiki\Extension\EmbedVideo\Media\VideoHandler;
 use MediaWiki\FileRepo\RepoGroup;
 use MediaWiki\Hook\BeforePageDisplayHook;
 use MediaWiki\Hook\ParserFirstCallInitHook;
-use Wikimedia\ObjectCache\WANObjectCache;
 use MediaWiki\Output\OutputPage;
 use MediaWiki\Page\Hook\ArticlePurgeHook;
 use MediaWiki\Page\WikiPage;
 use MediaWiki\Parser\Parser;
 use MediaWiki\Skin\Skin;
+use Wikimedia\ObjectCache\WANObjectCache;
 
 /**
  * EmbedVideo
