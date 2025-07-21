@@ -7,7 +7,7 @@ class Bootstrap {
     public static function onRegistration() {
         $classAliasMap = [
             '1.44' => [
-                [ 'RepoGroup', 'MediaWiki\\FileRepo\\RepoGroup' ],
+                [ 'MediaWiki\\FileRepo\\RepoGroup', 'RepoGroup' ],
             ]
         ];
 
