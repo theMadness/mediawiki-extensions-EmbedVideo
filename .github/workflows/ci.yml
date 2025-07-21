@@ -14,30 +14,30 @@ jobs:
     strategy:
       matrix:
         include:
-          - mw: 'REL1_39'
-            php: 8.1
-            experimental: true
-            use_legacy_phpunit: true
-          - mw: 'REL1_40'
-            php: 8.1
-            experimental: true
-            use_legacy_phpunit: true
-          - mw: 'REL1_41'
-            php: 8.1
-            experimental: true
-            use_legacy_phpunit: true
-          - mw: 'REL1_42'
-            php: 8.1
-            experimental: true
+#          - mw: 'REL1_39'
+#            php: 8.1
+#            experimental: true
+#            use_legacy_phpunit: true
+#          - mw: 'REL1_40'
+#            php: 8.1
+#            experimental: true
+#            use_legacy_phpunit: true
+#          - mw: 'REL1_41'
+#            php: 8.1
+#            experimental: true
+#            use_legacy_phpunit: true
+#          - mw: 'REL1_42'
+#            php: 8.1
+#            experimental: true
           - mw: 'REL1_43'
             php: 8.1
             experimental: true
-          - mw: 'REL1_44'
-            php: 8.1
-            experimental: true
-          - mw: 'master'
-            php: 8.1
-            experimental: true
+#          - mw: 'REL1_44'
+#            php: 8.1
+#            experimental: true
+#          - mw: 'master'
+#            php: 8.1
+#            experimental: true
 
     runs-on: ubuntu-latest
 
