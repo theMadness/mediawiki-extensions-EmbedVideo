@@ -9,6 +9,7 @@ class Bootstrap {
 				[ 'RepoGroup', 'MediaWiki\\FileRepo\\RepoGroup' ],
 				[ 'UnregisteredLocalFile', 'MediaWiki\\FileRepo\\File\\UnregisteredLocalFile' ],
 				[ 'LocalFile', 'MediaWiki\\FileRepo\\File\\LocalFile' ],
+				[ 'Shell', 'MediaWiki\\Shell\\Shell' ],
 			]
 		];
 
