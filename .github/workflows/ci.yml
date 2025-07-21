@@ -92,4 +92,4 @@ jobs:
 
       - name: Run PHPUnit
         if: ${{ !matrix.use_legacy_phpunit }}
-        run: composer phpunit --group EmbedVideo -- .
+        run: composer phpunit:entrypoint --group EmbedVideo .
