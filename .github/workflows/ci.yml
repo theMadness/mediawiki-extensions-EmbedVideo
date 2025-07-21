@@ -16,7 +16,7 @@ jobs:
         include:
           - mw: 'REL1_39'
             php: 8.1
-            experimental: false
+            experimental: true
             use_legacy_phpunit: true
           - mw: 'REL1_40'
             php: 8.1
@@ -35,10 +35,9 @@ jobs:
           - mw: 'REL1_44'
             php: 8.1
             experimental: true
-          #- mw: 'master'
-          #  php: 8.1
-          #  experimental: true
-          #  use_legacy_phpunit: false # Assuming master will use the new way
+          - mw: 'master'
+            php: 8.1
+            experimental: true
 
     runs-on: ubuntu-latest
 
