@@ -17,7 +17,7 @@ class Bootstrap {
 				[ 'MediaWiki\\Skin\\Skin', 'Skin' ],
 			],
 			'1.43' => [
-				[ 'Wikimedia\\ObjectCache\\WANObjectCache', 'WANObjectCache ' ],
+				[ 'Wikimedia\\ObjectCache\\WANObjectCache', 'WANObjectCache' ],
 			],
 		];
 
