@@ -90,6 +90,11 @@ jobs:
         if: ${{ matrix.use_legacy_phpunit }}
         run: composer phpunit:entrypoint -- --group EmbedVideo
 
+      - name: Fetch phpunit.xml.dist for modern MW
+        if: ${{ !matrix.use_legacy_phpunit }}
+        working-directory: mediawiki
+        run: bash ../EarlyCopy/.github/workflows/fetchPhpunitConf.sh ${{ matrix.mw }}
+
       - name: Run PHPUnit
         if: ${{ !matrix.use_legacy_phpunit }}
-        run: vendor/bin/phpunit --group EmbedVideo .
+        run: composer phpunit -- --group EmbedVideo
