@@ -9,7 +9,6 @@
 		"Alexia E. Smith",
 		"Cameron M. Chunn"
 	],
-	"callback": "MediaWiki\\Extension\\EmbedVideo\\Bootstrap::onRegistration",
 	"url": "https://github.com/StarCitizenWiki/mediawiki-extensions-EmbedVideo",
 	"descriptionmsg": "embedvideo-description",
 	"license-name": "MIT",
