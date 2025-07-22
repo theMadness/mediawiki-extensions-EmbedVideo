@@ -9,6 +9,7 @@
 		"Alexia E. Smith",
 		"Cameron M. Chunn"
 	],
+	"callback": "MediaWiki\\Extension\\EmbedVideo\\Polyfill\\Polyfill::init",
 	"url": "https://github.com/StarCitizenWiki/mediawiki-extensions-EmbedVideo",
 	"descriptionmsg": "embedvideo-description",
 	"license-name": "MIT",
