@@ -6,6 +6,7 @@ on:
       - 'main'
       - 'develop'
       - 'REL*_*'
+      - '*'
   pull_request:
     branches: [ "*" ]
 
