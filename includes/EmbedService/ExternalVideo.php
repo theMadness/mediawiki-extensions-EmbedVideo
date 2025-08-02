@@ -6,10 +6,10 @@ namespace MediaWiki\Extension\EmbedVideo\EmbedService;
 
 use InvalidArgumentException;
 use MediaWiki\Extension\EmbedVideo\Media\TransformOutput\VideoTransformOutput;
-use UnregisteredLocalFile;
 use MediaWiki\MainConfigNames;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Message\Message;
+use UnregisteredLocalFile;
 
 final class ExternalVideo extends AbstractEmbedService {
 

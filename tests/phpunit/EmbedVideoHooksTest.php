@@ -5,11 +5,11 @@ declare( strict_types=1 );
 namespace MediaWiki\Extension\EmbedVideo\Tests;
 
 use Exception;
+use LocalFile;
 use MediaWiki\Context\RequestContext;
 use MediaWiki\Extension\EmbedVideo\EmbedService\EmbedServiceFactory;
 use MediaWiki\Extension\EmbedVideo\EmbedVideoHooks;
 use MediaWiki\Extension\EmbedVideo\Media\AudioHandler;
-use MediaWiki\FileRepo\File\LocalFile;
 use MediaWiki\Output\OutputPage;
 use MediaWiki\Title\Title;
 use MediaWikiIntegrationTestCase;

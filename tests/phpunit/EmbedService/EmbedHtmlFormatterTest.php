@@ -8,9 +8,9 @@ use MediaWiki\Extension\EmbedVideo\EmbedService\EmbedHtmlFormatter;
 use MediaWiki\Extension\EmbedVideo\EmbedService\EmbedServiceFactory;
 use MediaWiki\Extension\EmbedVideo\EmbedService\LocalVideo;
 use MediaWiki\Extension\EmbedVideo\Media\TransformOutput\VideoTransformOutput;
-use UnregisteredLocalFile;
 use MediaWiki\Html\Html;
 use MediaWikiIntegrationTestCase;
+use UnregisteredLocalFile;
 
 /**
  * @group EmbedVideo
