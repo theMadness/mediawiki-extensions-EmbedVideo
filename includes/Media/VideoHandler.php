@@ -5,11 +5,11 @@ declare( strict_types=1 );
 namespace MediaWiki\Extension\EmbedVideo\Media;
 
 use Exception;
+use File;
 use MediaTransformOutput;
 use MediaWiki\Context\RequestContext;
 use MediaWiki\Extension\EmbedVideo\Media\TransformOutput\VideoEmbedTransformOutput;
 use MediaWiki\Extension\EmbedVideo\Media\TransformOutput\VideoTransformOutput;
-use MediaWiki\FileRepo\File\File;
 use MediaWiki\MediaWikiServices;
 use TrivialMediaHandlerState;
 

@@ -5,11 +5,11 @@ declare( strict_types=1 );
 namespace MediaWiki\Extension\EmbedVideo\Media\FFProbe;
 
 use Exception;
+use File;
 use JsonException;
 use MediaWiki\Config\ConfigException;
 use MediaWiki\Exception\ProcOpenError;
 use MediaWiki\Exception\ShellDisabledError;
-use MediaWiki\FileRepo\File\File;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Settings\SettingsBuilder;
 use MediaWiki\Shell\Shell;

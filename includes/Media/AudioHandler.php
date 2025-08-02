@@ -4,11 +4,11 @@ declare( strict_types=1 );
 
 namespace MediaWiki\Extension\EmbedVideo\Media;
 
+use File;
 use MediaHandler;
 use MediaTransformOutput;
 use MediaWiki\Extension\EmbedVideo\Media\FFProbe\FFProbe;
 use MediaWiki\Extension\EmbedVideo\Media\TransformOutput\AudioTransformOutput;
-use MediaWiki\FileRepo\File\File;
 use MediaWiki\MediaWikiServices;
 use stdClass;
 use Wikimedia\FileBackend\FSFile\FSFile;
