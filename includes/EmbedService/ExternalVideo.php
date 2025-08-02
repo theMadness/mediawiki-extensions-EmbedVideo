@@ -6,7 +6,7 @@ namespace MediaWiki\Extension\EmbedVideo\EmbedService;
 
 use InvalidArgumentException;
 use MediaWiki\Extension\EmbedVideo\Media\TransformOutput\VideoTransformOutput;
-use MediaWiki\FileRepo\File\UnregisteredLocalFile;
+use UnregisteredLocalFile;
 use MediaWiki\MainConfigNames;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Message\Message;

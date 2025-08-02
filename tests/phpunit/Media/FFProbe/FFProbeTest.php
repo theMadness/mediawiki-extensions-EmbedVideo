@@ -8,7 +8,7 @@ use Exception;
 use MediaWiki\Extension\EmbedVideo\Media\FFProbe\FFProbe;
 use MediaWiki\Extension\EmbedVideo\Media\FFProbe\FormatInfo;
 use MediaWiki\Extension\EmbedVideo\Media\FFProbe\StreamInfo;
-use MediaWiki\FileRepo\File\UnregisteredLocalFile;
+use UnregisteredLocalFile;
 use MediaWiki\Shell\Command;
 use MediaWiki\Shell\CommandFactory;
 use MediaWikiIntegrationTestCase;

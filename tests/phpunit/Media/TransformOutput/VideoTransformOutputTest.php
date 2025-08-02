@@ -5,7 +5,7 @@ declare( strict_types=1 );
 namespace MediaWiki\Extension\EmbedVideo\Tests\Media\TransformOutput;
 
 use MediaWiki\Extension\EmbedVideo\Media\TransformOutput\VideoTransformOutput;
-use MediaWiki\FileRepo\File\UnregisteredLocalFile;
+use UnregisteredLocalFile;
 
 /**
  * @group EmbedVideo
