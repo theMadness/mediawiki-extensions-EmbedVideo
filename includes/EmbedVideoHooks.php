@@ -10,7 +10,6 @@ use MediaWiki\Exception\MWException;
 use MediaWiki\Extension\EmbedVideo\EmbedService\EmbedServiceFactory;
 use MediaWiki\Extension\EmbedVideo\Media\AudioHandler;
 use MediaWiki\Extension\EmbedVideo\Media\VideoHandler;
-use MediaWiki\FileRepo\RepoGroup;
 use MediaWiki\Hook\BeforePageDisplayHook;
 use MediaWiki\Hook\ParserFirstCallInitHook;
 use MediaWiki\Output\OutputPage;
@@ -18,6 +17,7 @@ use MediaWiki\Page\Hook\ArticlePurgeHook;
 use MediaWiki\Page\WikiPage;
 use MediaWiki\Parser\Parser;
 use MediaWiki\Skin\Skin;
+use RepoGroup;
 use Wikimedia\ObjectCache\WANObjectCache;
 
 /**

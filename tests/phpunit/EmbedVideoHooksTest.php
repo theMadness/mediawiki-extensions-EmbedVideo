@@ -10,10 +10,10 @@ use MediaWiki\Extension\EmbedVideo\EmbedService\EmbedServiceFactory;
 use MediaWiki\Extension\EmbedVideo\EmbedVideoHooks;
 use MediaWiki\Extension\EmbedVideo\Media\AudioHandler;
 use MediaWiki\FileRepo\File\LocalFile;
-use MediaWiki\FileRepo\RepoGroup;
 use MediaWiki\Output\OutputPage;
 use MediaWiki\Title\Title;
 use MediaWikiIntegrationTestCase;
+use RepoGroup;
 use Wikimedia\ObjectCache\HashBagOStuff;
 use Wikimedia\ObjectCache\WANObjectCache;
 

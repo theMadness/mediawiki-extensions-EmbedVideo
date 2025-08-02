@@ -11,12 +11,12 @@ use MediaWiki\Extension\EmbedVideo\Media\TransformOutput\VideoEmbedTransformOutp
 use MediaWiki\Extension\EmbedVideo\Media\TransformOutput\VideoTransformOutput;
 use MediaWiki\Extension\EmbedVideo\Media\VideoHandler;
 use MediaWiki\FileRepo\File\LocalFile;
-use MediaWiki\FileRepo\RepoGroup;
 use MediaWiki\Shell\Command;
 use MediaWiki\Shell\CommandFactory;
 use MediaWiki\Title\Title;
 use MediaWiki\Title\TitleFactory;
 use MediaWiki\Utils\UrlUtils;
+use RepoGroup;
 use Shellbox\Command\UnboxedResult;
 use Wikimedia\AtEase\AtEase;
 
